@@ -1,12 +1,40 @@
-# React + Vite
+# React CRM Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful **CRM (Customer Relationship Management)** web application built using **React.js**. The app allows you to manage products, visualize data using charts, and perform essential CRUD operations efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Authentication
 
-## Expanding the ESLint configuration
+- Integrated **Clerk Authentication**.
+- Secure sign-in and sign-out functionality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Dashboard
+
+- A responsive dashboard displaying:
+  - **Total Stock**
+  - **Total Product Value**
+  - **Average Price**
+- Interactive charts using charting libraries to visualize product data.
+
+### Product Management
+
+- View a **table of all products**.
+- **Edit** and **delete** any product.
+- Add new products via a dynamic form.
+- Search, filter, and sort products.
+
+### Analytics
+
+- Real-time stats on product inventory and pricing.
+
+## Tech Stack
+
+| Technology       | Purpose                        |
+| ---------------- | ------------------------------ |
+| React.js         | Frontend framework             |
+| Clerk            | Authentication                 |
+| React Router DOM | Routing                        |
+| Recharts         | Dashboard charts visualization |
+| Tailwind CSS     | UI Styling                     |
+| React Hook Form  | Form handling (recommended)    |
