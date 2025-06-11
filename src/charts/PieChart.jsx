@@ -8,7 +8,7 @@ export const StockPieChart = ({ products, field, datakey }) => {
     .slice(0, 5);
 
   return (
-    <div className="shadow md:w-fit bg-white rounded-2xl shadow-amber-100 p-3 my-3 mx-2">
+    <div className="shadow w-full md:max-w-md md:min-w-[300px] bg-white rounded-2xl shadow-amber-100 p-3 my-3 mx-2">
       <div className="text-center text-xl font-semibold">
         Top Product's {field}
       </div>
